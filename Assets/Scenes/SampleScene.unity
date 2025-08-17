@@ -430,6 +430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0.075
+  _targetScale: 3
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,6 +674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a4664b5bd71d547a8185692bcf7d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _movementDirection: {x: 0, y: 0, z: 0.01}
 --- !u!135 &1826259784
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -893,6 +895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0.25
+  _targetScale: 3
 --- !u!114 &1830128756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -905,3 +908,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a4664b5bd71d547a8185692bcf7d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _movementDirection: {x: 0, y: 0, z: 0.005}

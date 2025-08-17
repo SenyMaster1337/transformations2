@@ -5,7 +5,8 @@ using UnityEngine;
 public class Increase : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    private float _targetScale = 3.0f;
+    [SerializeField] private float _targetScale;
+
     private Vector3 _initialScale;
 
     private void Start()
